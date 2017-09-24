@@ -239,7 +239,7 @@ ul, menu, dir {
   height: 467px;
 }
 
-/*@keyframes Up {
+@keyframes Up {
     0%   {top: -100px;}
     35%  {top: -750px;}
     85%  {top: 200px;}
@@ -251,7 +251,7 @@ ul, menu, dir {
     35%  {top: 200px;}
     85%  {top: -800px;}
     100%  {top: -500px;}
-}*/
+}
 
 .videoShow {
   background-color: #fff;
@@ -415,7 +415,7 @@ ul, menu, dir {
   .slideShow {
     top: 430px;
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: hidden;
     height: 160px;
     padding-top: 5px;
     left: 0;
@@ -520,7 +520,7 @@ ul, menu, dir {
     animation: moveLeft2 40s linear 2s 1;
   }
 
-  /*@keyframes moveLeft1 {
+  @keyframes moveLeft1 {
       0%   {left: 0px;}
       50%  {left: -1800px;}
       100% {left: 0px;}
@@ -530,7 +530,7 @@ ul, menu, dir {
       0%   {left: 1120px;}
       50%  {left: -680px;}
       100% {left: 1120px;}
-  }*/
+  }
 
 }
 

@@ -40,16 +40,18 @@ div {
 }
 
 #intro .container-lg {
-  margin: 90px 10%;
+  margin-bottom: 90px;
   padding-top: 50px;
   padding-bottom: 100px;
+  padding-left: 10%;
+  width: 100%;
 }
 
 .container, .container-lg {
   max-width: 1040px;
 }
 
-.container, .container-fluid, .container-lg, .container-wide, .container-xl {
+.container, .container-fluid, .container-wide, .container-xl {
   margin: 0 auto;
   padding-right: 20px;
   width: 100%;
@@ -361,7 +363,7 @@ ul, menu, dir {
 
 @media (max-width: 1250px) {
   #intro .container-lg {
-    margin: 70px 5%;
+    padding-left: 5%;
   }
 
   .videoShow h2 {
@@ -431,14 +433,14 @@ ul, menu, dir {
   }
 
   .slideShow .app-illustrations:first-child {
-    width: 1120px;
+    width: 1150px;
     top: 3px;
   }
 
   .slideShow .app-illustrations:nth-child(2) {
-    width: 900px;
+    width: 930px;
     top: -155px;
-    left: 1120px;
+    left: 1150px;
   }
 
   .app-illustrations .pic {
@@ -485,7 +487,7 @@ ul, menu, dir {
 
   .app-illustrations .phone {
     position: relative;
-    top: -50px;
+    top: -25px;
     display: inline-block;
     margin: 0;
     margin-left: 20px;
@@ -494,22 +496,20 @@ ul, menu, dir {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 0;
     background: #000;
-    box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, .25), 0 2px 6px rgba(0, 21, 64, .14), 0 10px 20px rgba(0, 21, 64, .05);
+    box-shadow: none;
   }
 
   .app-illustrations .phone-big, .app-illustrations .phone-small {
-    width: 70px;
+    width: 100px;
     height: inherit;
-    -ms-flex-order: 1;
-    order: 1;
   }
 
   .app-illustrations .phone-big img, .app-illustrations .phone-small img {
-    height: 100px;
+    height: 150px;
     position: relative;
-    top: 20px;
+    margin-bottom: 0;
   }
 
   .app-illustrations:first-child {
@@ -527,9 +527,9 @@ ul, menu, dir {
   }
 
   @keyframes moveLeft2 {
-      0%   {left: 1120px;}
-      50%  {left: -680px;}
-      100% {left: 1120px;}
+      0%   {left: 1150px;}
+      50%  {left: -650px;}
+      100% {left: 1150px;}
   }
 
 }

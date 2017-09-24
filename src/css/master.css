@@ -239,7 +239,7 @@ ul, menu, dir {
   height: 467px;
 }
 
-@keyframes Up {
+/*@keyframes Up {
     0%   {top: -100px;}
     35%  {top: -750px;}
     85%  {top: 200px;}
@@ -251,7 +251,7 @@ ul, menu, dir {
     35%  {top: 200px;}
     85%  {top: -800px;}
     100%  {top: -500px;}
-}
+}*/
 
 .videoShow {
   background-color: #fff;
@@ -381,11 +381,14 @@ ul, menu, dir {
 
 @media (max-width: 1000px) {
   #intro .container-lg {
-    margin-bottom: 200px;
+    margin-top: 0;
+    margin-bottom: 170px;
+    padding-top: 30px;
   }
 
   .container-lg img {
-    max-width: 80%;
+    width: 300px;
+    margin-bottom: 10px;
   }
 
   #intro p {
@@ -410,7 +413,7 @@ ul, menu, dir {
   }
 
   .slideShow {
-    top: 600px;
+    top: 430px;
     width: 100%;
     overflow-x: scroll;
     height: 160px;
@@ -517,7 +520,7 @@ ul, menu, dir {
     animation: moveLeft2 40s linear 2s 1;
   }
 
-  @keyframes moveLeft1 {
+  /*@keyframes moveLeft1 {
       0%   {left: 0px;}
       50%  {left: -1800px;}
       100% {left: 0px;}
@@ -527,7 +530,7 @@ ul, menu, dir {
       0%   {left: 1120px;}
       50%  {left: -680px;}
       100% {left: 1120px;}
-  }
+  }*/
 
 }
 
@@ -555,8 +558,35 @@ ul, menu, dir {
   }
 }
 
+@media (max-width: 530px) {
+  .container-lg img {
+    width: 250px;
+  }
+}
+
 @media (max-width: 394px) {
   .videoShow .background {
     top: 250px;
+  }
+}
+
+@media (max-width: 360px) {
+  #intro p {
+    max-width: 100%;
+  }
+
+  .container-lg img {
+    width: 70%;
+    min-width: 200px;
+  }
+}
+
+@media (max-width: 200px) {
+  #intro .container-lg {
+    padding-top: 10px;
+  }
+
+  .slideShow {
+    top: 450px;
   }
 }

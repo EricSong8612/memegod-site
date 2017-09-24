@@ -510,6 +510,7 @@ ul, menu, dir {
     height: 150px;
     position: relative;
     margin-bottom: 0;
+    top: 2px;
   }
 
   .app-illustrations:first-child {
@@ -534,7 +535,7 @@ ul, menu, dir {
 
 }
 
-@media (max-width: 835px) {
+@media (max-width: 860px) {
   #intro p {
     max-width: 60%;
   }
@@ -546,13 +547,13 @@ ul, menu, dir {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 715px) {
   #intro p {
     max-width: 70%;
   }
 }
 
-@media (max-width: 605px) {
+@media (max-width: 615px) {
   #intro p {
     max-width: 80%;
   }
